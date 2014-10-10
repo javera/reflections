@@ -15,3 +15,36 @@ What value do you think it offers?
 	actual files that have been committed with relevant comments. It may contain 
 	only some of the files from working directory or all of them but it also has
 	some metadata as well (commit comments).
+
+How can you use the staging area to make sure you have one commit per logical change?
+	
+	You can first add all the files that form the whole logical unit and then commit
+	it. This allows you to add more than one file at a time.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+	
+	Whenever adding a new feature that may not end up in the program in the end, 
+	i.e. prototyping. Branches help by allowing you to add meaningful messages that
+	describe the way the program is structured.
+
+How do the diagrams help you visualize the branch structure?
+
+	It's easier to look at a visual representation of the branch structure - dealing
+	with git commit IDs, etc., is very tedious, especially in command line. Diagrams
+	help a bit by making the structure more coherent.
+
+What is the result of merging two branches together? Why do we represent it in the
+diagram the way we do?
+
+	Merging two branches ensures that features that were present outside of, e.g. 
+	the	master branch are incorporated into it. It is useful when a team of people
+	is collaborating - individual features can be developed by programmers alone,
+	then added to the main branch of the repository.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Automatic merges save time, especially for simple modifications of the repository.
+	But in case of more complicated situation git may still be unable to merge two
+	branches itelf.
+
