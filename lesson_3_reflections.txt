@@ -1,6 +1,14 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
-  Collaborating with other people on a project or working on a few different machines,
-  changes made on one PC can then be synced onto different devices. On top of that, if
-  the files are only stored locally, any hardware failures would result in you losing
-  the files.
+	Collaborating with other people on a project or working on a few different machines,
+	changes made on one PC can then be synced onto different devices. On top of that, if
+	the files are only stored locally, any hardware failures would result in you losing
+	the files.
+
+Why might you want to always pull changes manually rather than having Git automatically
+stay up-to-date with your remote repository?
+
+	It's similar to why git by default requires you to manually commit changes to files.
+	Also, if you want, you could work on the files in the repository locally, then just
+	push the changes to the remote when you are online or satisfied with the modifications
+	(which may end up in the public repository that other people can view). 
