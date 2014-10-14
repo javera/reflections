@@ -1,0 +1,6 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+  Collaborating with other people on a project or working on a few different machines,
+  changes made on one PC can then be synced onto different devices. On top of that, if
+  the files are only stored locally, any hardware failures would result in you losing
+  the files.
