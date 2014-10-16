@@ -23,3 +23,10 @@ instead of another?
 	a local or remote location. Branches are terms that can be used only when speaking 
 	about a single repository. A branch is just a set of all or fewer commits that have
 	happened in the repository.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	In case you have no internet access (e.g. on a plane) you can get the copy from
+	github and be able to view the changes that were for example made by other people
+	and decide whether to merge the modifications (first locally), then sync them with
+	the remote repository.
